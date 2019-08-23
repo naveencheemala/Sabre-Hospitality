@@ -1,0 +1,11 @@
+<title>PS-get-deep-property exercise</title>
+<script>
+    var object = {
+        person: { name: { first: 'FirstName', middleInitial: 'I', lastName: 'LastName' } }
+    };
+    myFunction(object.person.name.lastName);
+    function myFunction(lastName) {
+        var a = lastName;
+        alert(a);
+    }
+</script>
